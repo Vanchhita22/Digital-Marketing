@@ -1,0 +1,31 @@
+#element {
+    background-image: url(/image/Digital_ads_head.jpg); /* Add background image */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    height: 120vh;
+  }
+
+  @media screen and (max-width: 768px) {
+    .element {
+      height: auto; /* Reset height to allow content to dictate height */
+      padding: 10px; /* Adjust padding for smaller screens */
+      margin-top: 80px; /* Adjust margin-top for smaller screens */
+    }
+  }
+
+  #para h6{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .count1 a{
+    font-weight: 600;
+  }
+
+  

@@ -1,0 +1,759 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    line-height: 1.65;
+}
+
+.navbar {
+    background-color: #fff; /* Adjust the background color as needed */
+    border-bottom: 1px solid #ddd; /* Adjust the border color as needed */
+}
+
+.navbar-brand img {
+    max-height: 40px; /* Adjust the max height of the logo image */
+    margin-right: 40px; /* Adjust the margin as needed */
+}
+
+.navbar-brand span {
+    color: #333; /* Adjust the text color as needed */
+   
+}
+
+.navbar-toggler {
+    border: 1px solid black; /* Remove the border */
+}
+
+
+
+.navbar-nav .nav-item {
+    margin-left: 20px; /* Adjust the margin between nav items */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Adjust the text color of the nav links */
+    transition: color 0.3s ease; /* Add a smooth transition for color change */
+}
+
+
+/* Hover styling for specific nav links */
+.navbar-nav .nav-link:hover {
+    color: #a5a5a7; /* Hover color for specific nav links */
+}
+
+/* Hover styling for other nav links */
+.navbar-nav .nav-link:not(:hover) {
+    color: black; /* Hover color for other nav links */
+}
+
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 4px; /* Remove the right margin for the last nav item */
+}
+
+span{
+margin-left: 0rem;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand img {
+        margin-right: 10px; /* Reduce the margin for the logo image */
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 10px; /* Reduce the margin between nav items */
+    }
+
+    span {
+        margin-left: 0; /* Reset margin for spans */
+    }
+}
+
+
+
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    box-sizing: border-box;
+  
+  }
+  .image-container {
+    position: relative;
+    width: 58%; /* Adjust as needed */
+  }
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+
+ 
+
+  .image-container button{
+    background-color: orangered;
+    padding: 10px 25px;
+    color:white;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+    margin-bottom: 70px;
+  }
+  .image-container span{
+
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-row {
+      flex-direction: column; /* Switch to column layout */
+    }
+  
+    .image-container {
+      width: 100%; /* Set width to full for smaller screens */
+      margin-bottom: 20px; /* Add some spacing between images */
+    }
+  
+    .image-container button {
+      margin-left: 0; /* Remove left margin for the button */
+      margin-top: 10px; /* Add some space between image and button */
+      margin-bottom: 40px;
+    }
+  }
+  .get {
+    margin: 0;
+    padding: 0;
+ height: 39vh;
+    background-color: black;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    box-sizing: border-box;
+  
+  }
+ 
+
+  
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+
+
+
+  .image-container span{
+
+    margin-left: 8px;
+  }
+  .get {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+  }
+  
+  
+ 
+
+  @media (max-width: 668px) {
+    .image-row {
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+    .image-container {
+        width: 100%; /* Occupy full width on smaller screens */
+    }
+
+  
+}
+.image-row {
+    display: flex;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 600px; /* Set the height of the image container */
+  }
+  
+  .image-container img {
+   
+    height: 100%; /* Set the image height to fill the container */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  .overlay-text {
+    color:white;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+  
+  }
+  
+  .image-container input{
+    background-color: black;
+    padding: 12px;
+    width:17 0px;
+    color:white;
+    margin-left: 0px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+ .image-container h2{
+    font-size: 2.5rem;
+ }
+   .head{
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 30px;
+   }
+
+   .contain {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    padding: 40px;
+  }
+  
+  .card1,
+  .card2 {
+    flex: 1; /* Equal width for both cards */
+    margin: 0 20px; /* Adjust margin as needed */
+ 
+  }
+  
+  .card1 p{
+    font-size: 20px;
+  }
+
+  .card1 h1{
+    margin-top: 70px;
+    font-size: 2.9rem;
+    margin-bottom: 80px;
+  }
+  .card1 strong{
+    font-size: 19px;
+  }
+  .card1 strong:hover{
+   color: orangered;
+  }
+  .card2 {
+    margin-top: 50px;
+  }
+
+  .card2 p{
+    font-size: 19px;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .contain {
+      flex-direction: column; /* Change flex direction to column on smaller screens */
+      align-items: center; /* Align items to center vertically */
+    }
+    
+    .card1,
+    .card2 {
+      margin: 20px 0; /* Adjust margin for smaller screens */
+    }
+  }
+
+
+  progress {
+    width: 70%;
+    height: 10px;
+    background-color: #d90a2c;
+    border-radius: 80px;
+   
+}
+
+progress::-webkit-progress-value {
+    background-color: #d90a2c;
+}
+
+
+progress::-moz-progress-bar {
+    background-color: #d90a2c;
+}
+
+.progress-container {
+    text-align: left;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%; /* Change this value to match your desired progress */
+  }
+}
+
+progress {
+  width: 70%;
+  height: 10px;
+  background-color: #d90a2c;
+  border-radius: 80px;
+  animation: progressAnimation 2s ease forwards; /* Apply animation */
+}
+
+progress::-webkit-progress-value {
+  background-color: #d90a2c;
+}
+
+progress::-moz-progress-bar {
+  background-color: #d90a2c;
+}
+
+.progress-container {
+  text-align: left;
+}
+
+
+
+/* Style the text above the progress bar */
+.progress-label {
+    font-size: 16px;
+    background-color: #0e0d0d;
+   width: 35px;
+   color: #fff;
+   padding: 4px;
+    font-weight: bold;
+}
+
+.card-flex-container {
+    margin-top: 0px;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 40px 30px 0px;
+}
+
+/* Style the content */
+.card-flex-container > div {
+    flex: 1;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-flex-container {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .card-flex-container > div {
+      padding: 20px 0; /* Adjust padding for smaller screens */
+  }
+
+  .progress-label {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      width: 40px; /* Adjust width for smaller screens */
+      padding: 2px 10px; /* Adjust padding for smaller screens */
+  }
+}
+.flex-box h2{
+    padding: 10px;
+}
+
+.flex-box span{
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.star {
+    color: goldenrod;
+}
+
+.flex-container {
+    display: flex;
+    padding: 30px;
+  }
+  
+  .testimonial {
+    flex: 1;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  .testimonial h2{
+    font-size: 3.5rem;
+  }
+  .custom-image-container {
+    flex: 1;
+  }
+  
+  .custom-image-container img {
+    width: 100%;
+   
+  }
+
+  @media screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .testimonial,
+    .custom-image-container {
+        margin-right: 0; /* Remove margin on smaller screens */
+        margin-bottom: 20px; /* Add margin bottom for spacing on smaller screens */
+    }
+}
+  .Profit {
+    background-color: #f2f2f6;
+    padding: 40px;
+  }
+
+  .Profit h1 {
+  margin-top: 50px;
+  padding: 20px 0px;
+  font-size: 2.7rem;
+  }
+ 
+  .blog-one {
+    background-color: #e8e8eb; /* Change this color to your desired background color */
+   padding: 20px;
+}
+
+  
+.blog-author-photo {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .blog-one-attrib p{
+    margin-top: 120px;
+    font-weight: 500;
+  }
+  
+  .blog-one-attrib span{
+   
+    font-weight: 400;
+  }
+
+  .blog-info {
+    display: block;
+  
+}
+
+.blog-author-name, .blog-date {
+    display: block; /* Display each item in a block */
+   
+}
+
+.blog-one-footer a{
+    text-decoration: none;
+    color: #0e0d0d;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+#blog:hover{
+    background-image: url(/image/Branding-Guide-FT-1.jpg);
+  height: 50vh;
+
+}
+#blog1:hover{
+    background-image: url(/image/Branding-Guide-FT.jpg);
+    height: 50vh;
+}
+
+#blog2:hover{
+    background-image: url(/image/Branding-Guide-FT-2.jpg);
+    height: 50vh;
+}
+
+.back {
+    display: flex; /* Use flexbox to arrange items in a row */
+  }
+  
+  .back div {
+    flex: 1; /* Distribute space equally among the child elements */
+    text-align: center; /* Center align the text */
+    padding: 20px; /* Add padding for spacing */
+    color: #f2f2f2;
+   max-height: 15vh;
+ font-weight: 600;
+  
+  }
+
+  .back div:last-child {
+    margin-right: 0; /* Remove margin from the last child to avoid extra space */
+  }
+  
+  .back div:nth-child(1) {
+    background-color: orangered; /* Set background color for the first div */
+
+}
+  
+  .back div:nth-child(2) {
+    background-color: black; /* Set background color for the second div */
+  }
+  
+  .back div:nth-child(3) {
+   padding-top: 20px;
+    background-color:orangered; /* Set background color for the third div */
+  }
+
+
+  .count {
+    background-color: #0e0d0d;
+  }
+
+  .count {
+    display: flex; /* Use flexbox to arrange items in a row */
+  }
+  
+  .count1,
+  .count2 {
+    flex: 1; /* Distribute space equally among the child elements */
+    padding: 20px; /* Add padding for spacing */
+    color: #fff;
+  }
+
+  .count1 h2{
+    margin-top: 30px;
+  }
+
+  .count2 p{
+    margin-top: 50px;
+  }
+
+  .count strong{
+    color: #a5a5a7;
+  }
+
+  .count button {
+    background-color: orangered;
+    padding: 10px 25px;
+    color:white;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+    margin-top: 30px;
+  
+  }
+
+  .count h2 {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    .count {
+      flex-direction: column; /* Change layout to column on smaller screens */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .count1,
+    .count2 {
+      flex: none; /* Reset flex to override equal distribution */
+      width: auto; /* Allow width to adjust based on content */
+      margin: 20px 0; /* Add margin for spacing between elements */
+    }
+  
+    .count1 h2,
+    .count2 p,
+    .count button {
+      margin-top: 0; /* Reset top margin for elements */
+    }
+  }
+.site-footer {
+    background-color: #f5f5f5;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+  
+  /* Styling the footer columns */
+  .widgets {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .widgets-column {
+    width: 25%; /* Adjust width as needed */
+    list-style-type: none;
+
+  }
+  
+  /* Styling the footer widget titles */
+  .widget-title {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Styling the footer links */
+  .widget a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .widget a:hover {
+    color: #555;
+  }
+  
+  /* Styling the site info section */
+  .site-info {
+   
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  
+  
+  .site-info-holder {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-info-holder .left {
+    flex-grow: 1;
+    color: #0e0d0d;
+  }
+  
+  .site-info-holder .right {
+    margin-left: auto;
+  }
+  
+  .site-info .page-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styling the copyright text */
+  .site-info .left {
+    font-size: 14px;
+  }
+  
+  .site-info .right {
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .social-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px; /* Adjust as needed */
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons ul li {
+    margin-bottom: 10px; /* Adjust spacing between icons */
+}
+
+.social-icons ul li a {
+    display: block;
+    color: #000; /* Change color as needed */
+    font-size: 20px; /* Adjust size as needed */
+}
+
+.container-top {
+    display: flex;
+  
+ 
+}
+
+.elements-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.elements-bar a {
+    color:rgb(36, 35, 35);
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#scrollToTopBtn {
+   color: #0e0d0d;
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+    transform: rotate(-90deg); /* Adjust the rotation angle as per your requirement */
+}
+
+
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item .brands {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-item:hover .brands {
+    display: block;
+}
+
+.page-container {
+ 
+  display: flex;
+  flex-wrap: nowrap; /* Ensure items stay in a single row */
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+ background-color: #f3f1f1;
+}
+
+/* Adjust the width of each widget container as needed */
+.page-container > div {
+  margin-top: 30px;
+  flex: 0 0 auto; /* Allow items to shrink to their content width */
+  width: auto; /* Adjust the width as needed */
+  margin-right: 20px; /* Adjust margin between widgets */
+}
+
+/* Remove margin from the last widget container to prevent extra spacing */
+.page-container > div:last-child {
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .page-container {
+    flex-direction: column; /* Switch to column layout */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+
+  /* Reset margin for all widget containers */
+  .page-container > div {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add margin between widgets in column layout */
+  }
+
+  /* Remove margin from the last widget container in column layout */
+  .page-container > div:last-child {
+    margin-bottom: 0;
+  }
+}

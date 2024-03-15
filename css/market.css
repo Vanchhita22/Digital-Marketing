@@ -1,0 +1,751 @@
+.nav-item {
+    position: relative;
+}
+
+.nav-item .brands {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-item:hover .brands {
+    display: block;
+}
+
+
+
+.element {
+   
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .element-para h5{
+    color: #7b7a7a;
+  }
+
+  .element-para h1{
+    font-size: 3.8rem;
+  }
+
+  .element-para h6{
+    margin-top: 50px;
+    color: orangered;
+  }
+
+  .element-para button{
+    background-color: rgb(17, 17, 17);
+    padding: 10px 25px;
+    color:white;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+   margin-top: 90px;
+
+  }
+  .element-para,
+  .form {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .form{
+    margin-top: 100px;
+  }
+  
+  .form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .input-group label {
+    flex: 1;
+  }
+
+  .input-group input {
+    flex: 2;
+    width: 100%;
+  }
+  
+ /* Add CSS to style the form */
+ .form {
+    width: 200px;
+    margin-right: 60px;
+  }
+  
+  .container-form {
+  
+    width: 550px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+  }
+  
+  .input-data input {
+    margin-bottom: 20px;
+    background-color:#f5f5f5;
+   
+  }
+
+  .input-data select {
+    margin-bottom: 20px;
+    background-color:#f5f5f5;
+   
+  }
+  
+  .input-data label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+  
+  }
+
+  .input-data input[type="text"]::placeholder,
+.input-data input[type="email"]::placeholder {
+  font-weight: 500; /* Adjust the font weight as needed */
+}
+
+  
+  .input-data input[type="text"],
+  .input-data input[type="email"],
+  .input-data input[type="submit"],
+  .input-data select {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  .input-data input[type="submit"] {
+    background-color: #0f100f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width:26%;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+
+   
+  }
+  
+  .input-data input[type="submit"]:hover {
+    background-color: #701244;
+    border: 1px solid beige;
+   
+
+  }
+  
+  .input-data input[type="text"]#website {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow to the website input */
+  }
+  
+  .form-row {
+    display: flex;
+  }
+  
+  .form-row .input-data {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-row .input-data:last-child {
+    margin-right: 0;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .form {
+      width: auto;
+      margin-right: 0;
+    }
+    
+    .container-form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: none;
+    }
+  
+    .input-data input[type="submit"] {
+      width: 100%;
+    }
+
+    .input-data input {
+        height: auto; /* Adjust the height for smaller screens */
+      }
+    
+      .input-data label {
+        margin-bottom: 8px; /* Adjust the margin for smaller screens */
+  
+    }
+
+    .input-data input[type="text"]::placeholder,
+    .input-data input[type="email"]::placeholder {
+      font-weight: 500; /* Adjust the font weight as needed */
+      font-size: 12px;
+    }
+
+   
+    .input-data {
+      font-weight: 500; /* Adjust the font weight as needed */
+      font-size: 12px;
+    }
+    
+  }
+  
+  .count1 h2{
+ margin-bottom: 120px;
+  }
+  .count1 a{
+    font-size: 23px;
+  }
+
+  .count2 {
+    margin-bottom: 20px;
+  }
+
+
+@media (max-width: 768px) {
+    .count {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count1, .count2 {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+
+.elementor-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+   
+}
+
+.elementor-column {
+    width: calc(100% / 3); /* Each column occupies one-third of the width */
+    box-sizing: border-box;
+    padding: 20px 30px; 
+    display: inline-block; /* Display columns inline */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 20px;
+
+}
+
+
+.elementor-column + .elementor-column {
+    margin-left: 0;
+ 
+}
+
+  
+@media screen and (max-width: 768px) {
+    .elementor-column {
+        width: 100%; /* Each column occupies full width on smaller screens */
+        margin-left: 0; /* Remove margin between columns */
+        margin-bottom: 20px; /* Add margin between rows */
+    }
+}
+
+.service_icon {
+    color: orangered;
+  padding: 12px;
+  font-size: 42px;
+}
+
+.service_subtitle {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.service_title {
+    color: orangered;
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.service_list li {
+    list-style: none;
+    color: #0f100f;
+}
+
+.service_list i {
+    padding: 3px;
+    color: rgb(147, 7, 12);
+}
+
+#know {
+    font-weight: 550;
+}
+#Count p {
+    margin-bottom: 80px;
+}
+
+.bar-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .bar-container {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .bar {
+    flex-direction: column; /* Change flex direction to column on smaller screens */
+    align-items: flex-start; /* Align items to the start of the container */
+  }
+}
+.bar-chart {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between bar-chart and bar-chart-pie */
+}
+
+.bar-chart-pie {
+    flex: 1;
+}
+
+.bar-chart-pie h3 {
+    padding: 12px;
+    background-color: #f5f5f5;
+}
+#progress-label {
+    margin-top: 0px;
+    font-size: 16px;
+    background-color: #0e0d0d;
+   width: 35px;
+   height: 4vh;
+   color: #fff;
+   padding: 4px;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .bar-container {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+
+    .bar-chart,
+    .bar-chart-pie {
+        flex: 1; 
+        margin-right: 0; /* Reset margin */
+        margin-bottom: 20px; /* Add some space between each chart */
+    }
+}
+
+#Digital-cut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Digital-mark {
+    flex: 1;
+    margin-right: 30px; /* Adjust spacing between the two sections */
+}
+
+.Digital-round {
+    flex: 1;
+    margin-left: 70px;
+}
+
+.Dgital-mark .Digital h2 {
+    width: 100px; /* Set width and height to create a circle */
+    height: 100px;
+    margin: 30px 80px;
+    border-radius: 50%; /* Make it a circle */
+  border: 6px solid orangered;
+  padding: 1px 5px;
+    text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Center the text vertically */
+}
+
+.Dgital-mark .Digital h5 {
+    margin: 30px 30px;
+}
+@media screen and (max-width: 768px) {
+    #Digital-cut {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+        align-items: stretch; /* Stretch items vertically */
+    }
+
+    .Digital-mark,
+    .Digital-round {
+        flex: 1; /* Take up full width */
+        margin: 0; /* Reset margin */
+        margin-bottom: 20px; /* Add some space between each section */
+    }
+}
+
+/* Basic styling for the textarea */
+.input-data textarea {
+  width: 100%; /* Make the textarea fill its container */
+  height: 150px; /* Set a default height */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 16px; /* Adjust font size as needed */
+  border: 1px solid #ccc; /* Add a border for clarity */
+  border-radius: 5px; /* Round the corners */
+  resize: vertical; 
+  background-color:#f5f5f5;
+}
+
+/* Style the label for consistency */
+.input-data label {
+  font-weight: bold; /* Make the label bold */
+  display: block; /* Display the label on a new line */
+  margin-bottom: 5px; /* Add some space below the label */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust the height for smaller screens */
+  .input-data textarea {
+    height: 100px;
+  }
+}
+
+.containerform {
+  width: 680px;
+  height: 570px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(222, 36, 36, 0.1); 
+
+
+  @media (max-width: 768px) {
+    width: 100%; /* Set width to 100% for better responsiveness */
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 20px; /* Reduce padding for smaller screens */
+    border-radius: 10px; /* Adjust border-radius */
+  }
+}
+
+.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.custom-card {
+  margin-top: 40px;
+  flex: 0 0 calc(25% - 20px); /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.custom-card i{
+  font-size: 42px;
+
+}
+
+.custom-card h2{
+  margin-top: 30px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.custom-card p{
+  margin-top: 18px;
+  font-size: 19px;
+}
+
+.Digipple { 
+  margin-top: 30px;
+  font-size: 2.7rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Digipple span{ 
+ color: orangered;
+}
+
+@media (max-width: 1200px) {
+  .custom-container {
+    display: block;
+    flex-direction: column;
+  }
+}
+
+.Set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.Setwait {
+  flex: 0 0 calc(50% - 20px); /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Additional CSS styles for other elements in the Set */
+.Setwait h2 {
+  margin-top: 60px; /* Adjust as needed */
+}
+
+.Setwait ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Setwait ul li {
+  margin-bottom: 10px; 
+  font-size: 24px;
+}
+
+.Setwait button {
+  background-color: rgb(17, 17, 17);
+    padding: 10px 25px;
+    color:white;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 18px;
+   margin-top: 90px;
+}
+.Setwait h2{
+  color: orangered;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.Setwait i{
+  padding: 5px; 
+ color: orangered;
+ font-size: 20px;
+}
+@media (max-width: 768px) {
+  .Setwait {
+    flex: 0 0 calc(100% - 20px); /* Set to full width on smaller screens */
+  }
+}
+
+.flex-box {
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.test {
+  flex: 0 0 calc(50% - 20px); /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.custom-img-container {
+  flex: 0 0 calc(50% - 20px); /* Adjust as needed */
+}
+
+/* Additional CSS styles for other elements within .test */
+.test strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.test h2 {
+  font-size: 83px;
+  margin-bottom: 10px;
+}
+
+.test p {
+
+  font-size: 20px;
+}
+
+.test h5 {
+  margin-top: 120px;
+
+}
+
+.star {
+  margin-bottom: 20px;
+}
+
+.star i {
+  font-size: 16px;
+  color: gold;
+}
+.custom-img-container img{
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .flex-box {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+  }
+
+  .test,
+  .custom-img-container {
+    flex: 0 0 calc(100% - 20px); /* Set to full width on smaller screens */
+  }
+}
+
+
+.elex {
+  display: flex;
+  flex-wrap: wrap;
+padding: 30px;
+}
+
+.elex h4{
+  font-size: 19px;
+}
+
+.elex1, .elex2 {
+  flex: 1;
+}
+
+.elex2 {
+  margin-left: 120px;
+}
+
+.ele {
+  background-color: #f5f5f5;
+}
+
+.elex h4 {
+  margin: 0;
+  padding: 10px;
+ 
+}
+
+.elex h4 span {
+  font-weight: 300;
+  font-size: 23px;
+float: right;
+}
+
+.elex-box h1{
+  text-align: center;
+  font-size: 43px;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .elex{
+    display: block;
+    flex-direction: column;
+  }
+  .elex2 {
+    margin-left: 0;
+  }
+}
+.container1form {
+width: 80vw;
+  height: 570px;
+  padding: 30px;
+
+}
+
+.Quote-fix h2{
+  text-align: center;
+}
+
+.Quote-fix p {
+  text-align:center;
+  font-weight: 600;
+  color: orangered;
+  margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container1form {
+    width: 90vw;
+    height: auto; /* or adjust the height as needed */
+    padding: 20px;
+  }
+}
+
+
+.page-container {
+ 
+  display: flex;
+  flex-wrap: nowrap; /* Ensure items stay in a single row */
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+ background-color: #f3f1f1;
+}
+
+/* Adjust the width of each widget container as needed */
+.page-container > div {
+  margin-top: 30px;
+  flex: 0 0 auto; /* Allow items to shrink to their content width */
+  width: auto; /* Adjust the width as needed */
+  margin-right: 20px; /* Adjust margin between widgets */
+}
+
+/* Remove margin from the last widget container to prevent extra spacing */
+.page-container > div:last-child {
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .page-container {
+    flex-direction: column; /* Switch to column layout */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+
+  /* Reset margin for all widget containers */
+  .page-container > div {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add margin between widgets in column layout */
+  }
+
+  /* Remove margin from the last widget container in column layout */
+  .page-container > div:last-child {
+    margin-bottom: 0;
+  }
+}
+
+#blogat2:hover{
+
+  background-image: url(/image/Award.png);
+  height: 60vh;
+}
+
+#blogat:hover{
+  background-color: #ccc;
+}
+
+#blogat3:hover{
+  background-image: url(/image/uZRP7vFPRv4-HD.jpg);
+  height: 60vh;
+}
